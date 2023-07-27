@@ -1,12 +1,12 @@
 <template>
-  <div style="padding-left: 2rem; padding-top: 5rem; position: relative">
+  <div style="padding-left: 2rem; padding-top: 5rem; position: absolute">
     <lightning-icon icon-name="utility:info" size="x-small" alternative-text="info" onmouseover={handleMouseOver} onmouseout={handleMouseOut} ></lightning-icon>
     
     <div
       class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-hide"
       role="tooltip"
       id="help"
-      style="position: absolute; top: -4px; left: 1rem"
+      style="position: absolute; top: 0rem; left: 1rem"
     >
       <div class="slds-popover__body">
         <lightning-formatted-rich-text value={popoverBody}>
