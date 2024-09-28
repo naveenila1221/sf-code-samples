@@ -17,7 +17,7 @@ public class HT_PreRenderApi {
     public String recacheUrl = 'recache';
     public String clearCacheUrl = 'cache-clear';
     public String sitemapUrl = 'sitemap';
-    public String prerenderToken = '9yX0wd0IhdjJIuB5VYUP';
+    public String prerenderToken = '';
     //public String prerenderToken = '';
     HttpRequest req;
     RequestBuilder reqBody;
